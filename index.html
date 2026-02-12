@@ -14,7 +14,9 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,500,500i,600,600i,700,700i&subset=cyrillic" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,500,500i,600,600i,700,700i&subset=cyrillic"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -40,16 +42,32 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column align-items-center justify-content-center">
     <h1>Hi, I'm Sadiya Ayub!</h1>
-    <h2>I am a Software Developer </h2>
-    <a href="#about" class="btn-get-started scrollto"><i class="bi bi-chevron-double-down"></i></a>
-  </section><!-- End Hero -->
+    <h2>I am a <span class="typed"></span></h2>
+
+    <a href="#about" class="btn-get-started scrollto">
+      <i class="bi bi-chevron-double-down"></i>
+    </a>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    new Typed(".typed", {
+      strings: ["Software Developer", "Designer", "Freelancer"],
+      typeSpeed: 70,
+      backSpeed: 40,
+      backDelay: 1200,
+      loop: true
+    });
+  </script>
+
+
+
 
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
 
       <div class="logo">
-        <h1><a href="index.html">Sadiya</a></h1>
+        <h1><a href="index.html">Sadiya Ayub</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
@@ -62,7 +80,7 @@
           <!-- <li><a class="nav-link scrollto" href="#services">Services</a></li> -->
           <li><a class="nav-link scrollto" href="#portfolio">Projects</a></li>
           <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a> -->
-            <!-- <ul>
+          <!-- <ul>
               <li><a href="#">Drop Down 1</a></li>
               <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
@@ -98,38 +116,48 @@
             <div class="content d-flex flex-column justify-content-center">
               <h3>Milestones & Achievements</h3>
               <p>
-                In the course of my career, I've had the privilege of working on a variety of projects and with a diverse array of clients. This journey has not only allowed me to refine my skills but also to achieve significant milestones that reflect my dedication and expertise.
+                In the course of my career, I've had the privilege of working on a variety of projects and with a
+                diverse array of clients. This journey has not only allowed me to refine my skills but also to achieve
+                significant milestones that reflect my dedication and expertise.
               </p>
               <div class="row">
                 <div class="col-md-6 d-md-flex align-items-md-stretch">
                   <div class="count-box">
                     <i class="bi bi-emoji-smile"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>Happy Clients</strong> I have collaborated with 4+ clients across various industries, including Finkin Credentials, Alpha Herbals.</p>
+                    <span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1"
+                      class="purecounter"></span>
+                    <p><strong>Happy Clients</strong> I have collaborated with 4+ clients across various industries,
+                      including TVS Sai Radha, Alpha Herbals.</p>
                   </div>
                 </div>
 
                 <div class="col-md-6 d-md-flex align-items-md-stretch">
                   <div class="count-box">
                     <i class="bi bi-journal-richtext"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>Projects</strong> Over the course of my career, I have had the privilege of working on a diverse array of projects, each with its unique challenges and opportunities.</p>
+                    <span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1"
+                      class="purecounter"></span>
+                    <p><strong>Projects</strong> Over the course of my career, I have had the privilege of working on a
+                      diverse array of projects, each with its unique challenges and opportunities.</p>
                   </div>
                 </div>
 
                 <div class="col-md-6 d-md-flex align-items-md-stretch">
                   <div class="count-box">
                     <i class="bi bi-clock"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>Years of experience</strong> Over the last 1+ year, I've successfully completed 4+ projects, ranging from Web development, design, App development.</p>
+                    <span data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="1"
+                      class="purecounter"></span>
+                    <p><strong>Years of experience</strong> Over the last 2+ year, I've successfully completed 4+
+                      projects, ranging from Web development, design, App development.</p>
                   </div>
                 </div>
 
                 <div class="col-md-6 d-md-flex align-items-md-stretch">
                   <div class="count-box">
                     <i class="bi bi-award"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>Awards</strong> My work has been recognized with 4+ awards, including Best innovative coder at Nicozn Technologies.</p>
+                    <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1"
+                      class="purecounter"></span>
+                    <p><strong>Awards</strong> My work has been recognized with 1+ awards, including Best innovative
+                      coder at Nicozn Technologies.</p>
                   </div>
                 </div>
               </div>
@@ -146,69 +174,62 @@
 
         <div class="section-title">
           <h2>Skills</h2>
-          <p>I possess a diverse set of skills that have enabled me to excel in my career. From technical expertise to creative problem-solving, my skills are key to the quality and innovation I bring to every project.</p>
+          <p>I possess a diverse set of skills that have enabled me to excel in my career. From technical expertise to
+            creative problem-solving, my skills are key to the quality and innovation I bring to every project.</p>
         </div>
 
         <div class="row skills-content">
 
-          <div class="col-lg-6">
+          <div class="col-lg-12">
 
-            <div class="progress">
-              <span class="skill">Flutter<i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="skills">
+
+              <div class="progress">
+                <span class="skill flutter">Flutter & Dart</span>
+                <div class="progress-bar-wrap">
+                  <!-- progress bar -->
+                </div>
+                <span class="skill-description">
+                  Experienced in building mobile apps with clean architecture, data modeling,creating reusable custom
+                  widgets, API integration, and state management (Provider, Bloc, GetX)
+                </span>
               </div>
+
+              <div class="progress">
+                <span class="skill firebase">Firebase</span>
+                <div class="progress-bar-wrap">
+                  <!-- progress bar -->
+                </div>
+                <span class="skill-description">
+                  Phone Email & Google Authentication, Firebase Storage
+                  (image & file uploads), Firebase Cloud Messaging, Role-based access (basic logic), Error handling
+                  (Snackbars)
+                  DataManagement | Data validation,Local storage (SharedPreferences)
+                </span>
+              </div>
+
             </div>
 
             <div class="progress">
-              <span class="skill">Java <i class="val">80%</i></span>
+              <span class="skill figma">Figma</span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                <!-- progress bar -->
               </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Firebase <i class="val">75%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill">Software development <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">User Experience (UX) Design<i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Creativity <i class="val">75%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Photography <i class="val">55%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
+              <span class="skill-description">Responsive and adaptive layout design, UI prototyping, and
+                animation-driven user experiences
+              </span>
             </div>
 
           </div>
+
+
+
 
         </div>
+
+
+
+      </div>
 
       </div>
     </section><!-- End Skills Section -->
@@ -219,7 +240,8 @@
 
         <div class="section-title">
           <h2>Resume</h2>
-          <p>This document provides an overview of my professional experience, sumary, and accomplishments, detailed information about my education, and notable achievements.</p>
+          <p>This document provides an overview of my professional experience, sumary, and accomplishments, detailed
+            information about my education, and notable achievements.</p>
         </div>
 
         <div class="row">
@@ -228,11 +250,11 @@
             <div class="resume-item pb-0">
               <h4>Sadiya Ayub </h4>
               <p><em>To get a challenging career and be a member of a growing organization where I can utilize my skills
-                and technical knowledge to serve the organization.</em></p>
+                  and technical knowledge to serve the organization.</em></p>
               <p>
               <ul>
-                <li>Beeri, Mangalore. </li>
-                <li>+91 8217696772</li>
+                <li>Ajman UAE</li>
+                <li>+971 526585928</li>
                 <li>sadiyaayub16@gmail.com</li>
               </ul>
               </p>
@@ -249,7 +271,7 @@
               <h4>Bachelor of Science </h4>
               <h5>2021</h5>
               <p><em>Dr A V Baliga Arts & Science College, Kumta
-              </em></p>
+                </em></p>
               <!-- <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p> -->
             </div>
           </div>
@@ -257,15 +279,17 @@
             <h3 class="resume-title">Professional Experience</h3>
             <div class="resume-item">
               <h4>Software Developer in Flutter Firebase Full Stack
-                Development,                
-                </h4>
-              <h5> Oct 2023 - Present</h5>
+                Development,
+              </h4>
+              <h5> Oct 2023 - Dec 2025</h5>
               <p><em>Nicozn Technologies </em></p>
               <p>
               <ul>
-                <li>As a Flutter Developer at Nicozn Technologies, contributed to the development of projects over a sixmonth period. </li>
-                <li>Demonstrated proficiency in utilizing Flutter framework to create dynamic and efficient mobile applications.</li>
-                <li>Collaborated with team members to meet project objectives and deliver high-quality solutions within set timelines.</li>
+                <li>Flutter Developer with hands-on experience developing dynamic mobile apps using Flutter and
+                  contributing to timely, high-quality project delivery.
+                  .</li>
+                <li>Collaborated with team members to meet project objectives and deliver high-quality solutions within
+                  set timelines.</li>
                 <!-- <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li> -->
               </ul>
               </p>
@@ -273,18 +297,20 @@
             <div class="resume-item">
               <h4>Internship in Flutter With Firebase Full Stack
                 Development,
-                </h4>
+              </h4>
               <h5>April 2023 - Aug 2023
               </h5>
               <p><em>Nicozn Technologies
-              </em></p>
+                </em></p>
               <p>
               <ul>
-                <li>Worked with development teams to build mobile apps
-                  using the Flutter framework. </li>
+
                 <li>Played an integral role in crafting user interfaces through Flutter widgets and
                   layouts.
-                  </li>
+                </li>
+                <li>Built reusable UI components and screens </li>
+                <li>Learned app lifecycle and debugging techniques</li>
+                <li>Integrated APIs under senior developer guidance</li>
                 <!-- <li>Recommended and consulted with clients on the most appropriate graphic design</li> -->
                 <!-- <li>Created 4+ design presentations and proposals a month for clients and account managers</li> -->
               </ul>
@@ -305,7 +331,7 @@
           <p>I possess a diverse set of skills that have enabled me to excel in my career. From technical expertise to creative problem-solving, my skills are key to the quality and innovation I bring to every project.</p>
          </div> -->
 
-        <!-- <div class="row">
+    <!-- <div class="row">
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
@@ -316,14 +342,14 @@
             </div>
           </div> -->
 
-          <!-- <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+    <!-- <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-file"></i></div>
               <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
               <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
             </div>
           </div> -->
-<!-- 
+    <!-- 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box">
                 <div class="icon">
@@ -337,9 +363,9 @@
                 <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
             </div>
         </div> -->
-        
-        
-<!-- 
+
+
+    <!-- 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-world"></i></div>
@@ -359,8 +385,10 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Projects</h2>
-          <p>Welcome to my Projects. This collection represents the work I've done over the years as Software Developer. Within this portfolio, you'll find a selection of projects that demonstrate my skills, creativity, and expertise.</p>
+          <h2>Portfolio</h2>
+          <p>Welcome to my Projects. This collection represents the work I've done over the years as Software Developer.
+            Within this portfolio, you'll find a selection of projects that demonstrate my skills, creativity, and
+            expertise.</p>
         </div>
 
         <div class="row">
@@ -383,7 +411,12 @@
                 <p>Event Management App</p>
               </div>
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-1-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Everlast"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/portfolio/portfolio-1-1.jpg" data-gallery="gallery-everlast"
+                  class="portfolio-lightbox" title="Everlast"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/portfolio/ever1.jpeg" data-gallery="gallery-everlast" class="portfolio-lightbox"
+                  title="Everlast Screenshot 2"></a>
+                <a href="assets/img/portfolio/ever2.jpeg" data-gallery="gallery-everlast" class="portfolio-lightbox"
+                  title="Everlast Screenshot 3"></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
@@ -393,11 +426,16 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Raymonds</h4>
+                <h4>Raymonds, Mangalore</h4>
                 <p>Tailor website</p>
               </div>
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-2-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Raymonds"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/portfolio/tr3.jpeg" data-gallery="gallery-raymonds"
+                  class="portfolio-lightbox" title="Raymonds"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/tr1.jpeg" data-gallery="gallery-raymonds"
+                  class="portfolio-lightbox" title="Raymonds Screenshot 2"></a>
+                  <a href="assets/img/portfolio/tr2.jpeg" data-gallery="gallery-raymonds"
+                  class="portfolio-lightbox" title="Raymonds Screenshot 2"></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
@@ -405,13 +443,36 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/al.jpeg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Alpha Herbals</h4>
+                <h4>Alpha Herbals, karkala</h4>
                 <p>Ecommerce App</p>
               </div>
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-3-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Alpha Herbals"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/portfolio/al0.jpeg" data-gallery="gallery-alpha" class="portfolio-lightbox"
+                  title="Alpha Herbals"><i class="bx bx-plus"></i></a>
+
+                   <a href="assets/img/portfolio/al1.jpeg"data-gallery="gallery-alpha" class="portfolio-lightbox"
+                  title="Alpha Herbals"></a>
+
+                  <a href="assets/img/portfolio/al2.jpeg"data-gallery="gallery-alpha" class="portfolio-lightbox"
+                  title="Alpha Herbals"></a>
+
+                   <a href="assets/img/portfolio/al3.jpeg"data-gallery="gallery-alpha" class="portfolio-lightbox"
+                  title="Alpha Herbals"></a>
+
+                   <a href="assets/img/portfolio/al4.jpg" data-gallery="gallery-alpha" class="portfolio-lightbox"
+                  title="Alpha Herbals"></a>
+
+                   <a href="assets/img/portfolio/al4.jpg" data-gallery="gallery-alpha" class="portfolio-lightbox"
+                  title="Alpha Herbals"></a>
+                  
+
+                   <a href="assets/img/portfolio/al5.jpg" data-gallery="gallery-alpha" class="portfolio-lightbox"
+                  title="Alpha Herbals"></a>
+
+                 
+
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
@@ -419,17 +480,116 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/gw0.jpeg"class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>FinKin Credentials</h4>
-                <p>Streamlining Loan Processes App</p>
+                <h4>Green World</h4>
+                <p>Earning App</p>
               </div>
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="FinKin Credentials"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/portfolio/gw1.jpeg"data-gallery="gallery-finkin" class="portfolio-lightbox"
+                  title="FinKin Credentials"><i class="bx bx-plus"></i></a>
+
+                  <a href="assets/img/portfolio/gw2.jpeg"data-gallery="gallery-finkin" class="portfolio-lightbox"
+                  title="FinKin Credentials"></a>
+
+                  <a href="assets/img/portfolio/gw3.jpeg"data-gallery="gallery-finkin" class="portfolio-lightbox"
+                  title="FinKin Credentials"></a>
+
+                  <a href="assets/img/portfolio/gw4.jpeg"data-gallery="gallery-finkin" class="portfolio-lightbox"
+                  title="FinKin Credentials"></a>
+
+                  <a href="assets/img/portfolio/gw5.jpeg"data-gallery="gallery-finkin" class="portfolio-lightbox"
+                  title="FinKin Credentials"></a>
+
+                  <a href="assets/img/portfolio/gw6.jpeg"data-gallery="gallery-finkin" class="portfolio-lightbox"
+                  title="FinKin Credentials"></a>
+
+                  <a href="assets/img/portfolio/gw7.jpeg"data-gallery="gallery-finkin" class="portfolio-lightbox"
+                  title="FinKin Credentials"></a>
+
+                  <a href="assets/img/portfolio/gw8.jpeg"data-gallery="gallery-finkin" class="portfolio-lightbox"
+                  title="FinKin Credentials"></a>
+
+                 
+
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/sai_radha.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>E-Straightway, Puttur</h4>
+                <p>Vehicle Rental & Tracking App</p>
+              </div>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/as1.jpeg" data-gallery="gallery-estraightway"
+                  class="portfolio-lightbox" title="E-Straightway"><i class="bx bx-plus"></i></a>                 
+                
+                  <a href="assets/img/portfolio/es2.jpeg" data-gallery="gallery-estraightway"
+                  class="portfolio-lightbox" title="E-Straightway"></a>
+
+                  <a href="assets/img/portfolio/es3.jpeg" data-gallery="gallery-estraightway"
+                  class="portfolio-lightbox" title="E-Straightway"></a>
+
+                  <a href="assets/img/portfolio/es4.jpeg" data-gallery="gallery-estraightway"
+                  class="portfolio-lightbox" title="E-Straightway"></a>
+
+                  <a href="assets/img/portfolio/es5.jpeg" data-gallery="gallery-estraightway"
+                  class="portfolio-lightbox" title="E-Straightway"></a>
+
+                  <a href="assets/img/portfolio/es6.jpeg" data-gallery="gallery-estraightway"
+                  class="portfolio-lightbox" title="E-Straightway"></a>
+
+                  <a href="assets/img/portfolio/es7.jpeg" data-gallery="gallery-estraightway"
+                  class="portfolio-lightbox" title="E-Straightway"></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/estreight.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>TVS Sai Radha, Udupi</h4>
+                <p>Bike Booking App</p>
+              </div>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/s1.jpeg" data-gallery="gallery-tvs" class="portfolio-lightbox"
+                  title="TVS Sai Radha"><i class="bx bx-plus"></i></a>
+
+                   <a href="assets/img/portfolio/estreight.jpeg" data-gallery="gallery-tvs" class="portfolio-lightbox"
+                  title="TVS Sai Radha 1"></a>
+
+                   <a href="assets/img/portfolio/s2.jpeg" data-gallery="gallery-tvs" class="portfolio-lightbox"
+                  title="TVS Sai Radha 2"></a>
+                  
+                   <a href="assets/img/portfolio/s3.jpeg" data-gallery="gallery-tvs" class="portfolio-lightbox"
+                  title="TVS Sai Radha 3"></a>
+
+                   <a href="assets/img/portfolio/s4.jpeg" data-gallery="gallery-tvs" class="portfolio-lightbox"
+                  title="TVS Sai Radha 4"></a>
+
+                   <a href="assets/img/portfolio/s6.jpeg" data-gallery="gallery-tvs" class="portfolio-lightbox"
+                  title="TVS Sai Radha 5"></a>
+
+                   <a href="assets/img/portfolio/s5.jpeg" data-gallery="gallery-tvs" class="portfolio-lightbox"
+                  title="TVS Sai Radha 6"></a>
+
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+
+
 
         </div>
 
@@ -440,12 +600,12 @@
     <!-- <section id="testimonials" class="testimonials section-bg">
       <div class="container"> -->
 
-        <!-- <div class="section-title">
+    <!-- <div class="section-title">
           <h2>Testimonials</h2>
           <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div> -->
 
-        <!-- <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+    <!-- <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
           <div class="swiper-wrapper">
 
             <div class="swiper-slide">
@@ -460,8 +620,8 @@
                 <h4>Ceo &amp; Founder</h4>
               </div>
             </div> -->
-            <!-- End testimonial item -->
-<!-- 
+    <!-- End testimonial item -->
+    <!-- 
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <p>
@@ -474,9 +634,9 @@
                 <h4>Designer</h4>
               </div>
             </div> -->
-            <!-- End testimonial item -->
+    <!-- End testimonial item -->
 
-            <!-- <div class="swiper-slide">
+    <!-- <div class="swiper-slide">
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
@@ -488,9 +648,9 @@
                 <h4>Store Owner</h4>
               </div>
             </div> -->
-            <!-- End testimonial item -->
+    <!-- End testimonial item -->
 
-            <!-- <div class="swiper-slide">
+    <!-- <div class="swiper-slide">
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
@@ -502,9 +662,9 @@
                 <h4>Freelancer</h4>
               </div>
             </div> -->
-            <!-- End testimonial item -->
+    <!-- End testimonial item -->
 
-            <!-- <div class="swiper-slide">
+    <!-- <div class="swiper-slide">
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
@@ -516,13 +676,13 @@
                 <h4>Entrepreneur</h4>
               </div>
             </div> -->
-            <!-- End testimonial item -->
+    <!-- End testimonial item -->
 
-          <!-- </div>
+    <!-- </div>
           <div class="swiper-pagination"></div>
         </div> -->
 
-      <!-- </div>
+    <!-- </div>
     </section> -->
     <!-- End Testimonials Section -->
 
@@ -532,7 +692,8 @@
 
         <div class="section-title">
           <h2>Contact</h2>
-          <p>Thank you for visiting my portfolio. If you'd like to discuss a project, ask questions, or simply learn more about my work, I'd love to hear from you. You can reach me through the following channels:</p>
+          <p>Thank you for visiting my portfolio. If you'd like to discuss a project, ask questions, or simply learn
+            more about my work, I'd love to hear from you. You can reach me through the following channels:</p>
         </div>
 
         <div class="row">
@@ -545,7 +706,8 @@
                 <!-- <a href="#" class="twitter"><i class="bi bi-twitter"></i></a> -->
                 <a href="mailto:sadiyaayub16@gmail.com" class="gmail"><i class="bi bi-envelope"></i></a>
                 <a href="https://github.com/Sadiya321" class="github"><i class="bi bi-github"></i></a>
-                <a href="https://www.linkedin.com/in/sadiya-ayub-3a092b2ab/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/sadiya-ayub-3a092b2ab/" class="linkedin"><i
+                    class="bi bi-linkedin"></i></a>
               </div>
             </div>
           </div>
@@ -554,7 +716,7 @@
             <div class="info">
               <div class="d-flex align-items-center">
                 <i class="bi bi-geo-alt"></i>
-                <p>beeri, Mangalore 575022</p>
+                <p>Ajman, UAE</p>
               </div>
 
               <div class="d-flex align-items-center mt-4">
@@ -564,7 +726,7 @@
 
               <div class="d-flex align-items-center mt-4">
                 <i class="bi bi-phone"></i>
-                <p>+91 8217696772</p>
+                <p>+971526585928</p>
               </div>
 
             </div>
@@ -611,12 +773,13 @@
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-lonely/ -->
-        Designed by <a href="https://bootstrapmade.com/">Sadiya</a>
+        Designed by <a href="">Sadiya</a>
       </div>
     </div>
   </footer><!-- End  Footer -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
