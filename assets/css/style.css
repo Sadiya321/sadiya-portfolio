@@ -630,12 +630,11 @@ section {
 
 .skills .progress .skill-description {
   display: block;
-  color: #333;
+  color: #2c4964;
   font-size: 14px;width: 100%;
   font-weight: 400;
   font-family: "Poppins", sans-serif;
-  
-  display: inline;
+  margin-top: 15px;
   white-space: normal;      /* allows natural line wrapping */
   word-break: normal;       /* prevents aggressive breaking */
   text-align: left;       /* 👈 key line */
